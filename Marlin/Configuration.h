@@ -203,7 +203,7 @@
 #define ENABLE_AUTO_OFF_DISPLAY
 #if ENABLED(ENABLE_AUTO_OFF_DISPLAY)
   #define TURN_OFF_TIME              1000 * 60 * 5  // turn-off time: 5min
-  #define DESTORY_SCREEN_BRIGHTNESS  5              // brightness 0x00-0xff:0
+  #define DESTORY_SCREEN_BRIGHTNESS  0              // brightness 0x00-0xff:0
 #endif
 
 /**
